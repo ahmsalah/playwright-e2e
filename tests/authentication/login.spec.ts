@@ -18,4 +18,6 @@ test.describe("Login", () => {
       })
     );
   });
+
+  test.fixme("should allow user to reset his password", async () => {});
 });
