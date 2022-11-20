@@ -51,7 +51,5 @@ test.describe("Pinky Promise", () => {
 
     // user 1 moves agreement into signing
     await updateAgreementStatus({ page: user1, status: "Move to Signing" });
-
-    await browser.close();
   });
 });
