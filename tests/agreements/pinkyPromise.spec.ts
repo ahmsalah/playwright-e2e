@@ -39,7 +39,7 @@ test.describe("Pinky Promise", () => {
     await updateAgreementStatus({ page: user1, status: "Send for Review" });
     await expect(user1.getByText("In Review").first()).toHaveCount(1);
     await approveAll(user1);
-    await expect(user1.getByText("You Agree")).toHaveCount(3);
+    await expect(user1.getByText("You Agree").first()).toHaveCount(1);
 
     // user 2 approve agreement flow
     await user2.reload();
@@ -47,7 +47,7 @@ test.describe("Pinky Promise", () => {
     await user2.getByText(agreementName).click();
     await openAgreement(user2);
     await approveAll(user2);
-    await expect(user2.getByText("You Agree")).toHaveCount(3);
+    await expect(user2.getByText("You Agree").first()).toHaveCount(1);
 
     // user 1 moves agreement into signing
     await updateAgreementStatus({ page: user1, status: "Move to Signing" });
