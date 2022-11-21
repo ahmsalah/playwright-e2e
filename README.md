@@ -20,10 +20,6 @@ Or alternatively install [playwright vscode extension](https://marketplace.visua
 
 ## Tests folder structure
 
-- Feature
-  - Subfeature 1
-  - Subfeature 2
-
 📦tests
 ┣ 📂agreements
 ┃ ┣ 📜pinkyPromise.spec.ts
@@ -33,3 +29,8 @@ Or alternatively install [playwright vscode extension](https://marketplace.visua
 ┃ ┣ 📜login.spec.ts
 ┃ ┣ 📜signup.spec.ts
 ┃ ┗ 📜utils.ts
+
+- tests
+  - Feature
+    - Subfeature 1
+    - Subfeature 2
