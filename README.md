@@ -2,7 +2,7 @@
 
 ## Get Started
 
-Clone repo & Install packages
+Clone repo & install packages
 
 ```sh
 git clone https://github.com/ahmsalah/playwright-e2e.git
@@ -24,13 +24,16 @@ Or alternatively install [playwright vscode extension](https://marketplace.visua
   - Feature 1
     - Subfeature 1
     - Subfeature 2
+  - Feature 2
+    - Subfeature 1
+    - Subfeature 2
 
-📦tests  
- ┣ 📂agreements  
- ┃ ┣ 📜pinkyPromise.spec.ts  
- ┃ ┗ 📜utils.ts  
- ┗ 📂authentication  
- ┃ ┣ 📜index.ts  
- ┃ ┣ 📜login.spec.ts  
- ┃ ┣ 📜signup.spec.ts  
- ┃ ┗ 📜utils.ts  
+ 📦 tests  
+ ┣ 📂 agreements  
+ ┃ ┣ 📜 pinkyPromise.spec.ts  
+ ┃ ┗ 📜 utils.ts  
+ ┗ 📂 authentication  
+ ┃ ┣ 📜 index.ts  
+ ┃ ┣ 📜 login.spec.ts  
+ ┃ ┣ 📜 signup.spec.ts  
+ ┃ ┗ 📜 utils.ts
