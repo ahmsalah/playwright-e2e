@@ -35,3 +35,10 @@ Folders are structured into features and sub-features, each main folder has a ut
  ┃ ┣ 📜 Login.spec.ts  
  ┃ ┣ 📜 SignUp.spec.ts  
  ┃ ┗ 📜 utils.ts
+ 
+## Playwright Report 
+
+[Download playwright-report](https://github.com/ahmsalah/playwright-e2e/suites/9411621647/artifacts/444388031)
+  
+<img width="1144" alt="image" src="https://user-images.githubusercontent.com/50025978/202936856-bf330b8a-c1ba-4f25-a1e3-50987237e38e.png">
+
