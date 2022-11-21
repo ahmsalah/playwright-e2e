@@ -2,7 +2,7 @@
 
 ## Get Started
 
-Clone repo & install packages
+Clone repo & Install packages
 
 ```sh
 git clone https://github.com/ahmsalah/playwright-e2e.git
