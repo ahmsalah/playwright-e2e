@@ -1,5 +1,3 @@
-# Playwright demo
-
 ## Get Started
 
 Clone repo & Install packages
