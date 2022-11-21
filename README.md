@@ -8,13 +8,13 @@ cd playwright-e2e
 yarn
 ```
 
-Launch the test runner via command line
+Install and run tests via [playwright vscode extension](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
+
+Or alternatively, Launch the test runner via command line
 
 ```sh
 npx playwright test
 ```
-
-Or alternatively install [playwright vscode extension](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
 
 ## Tests folder structure
 
@@ -22,7 +22,6 @@ Or alternatively install [playwright vscode extension](https://marketplace.visua
   - Feature 1
     - Subfeature 1
     - Subfeature 2
-
 
  📦 tests  
  ┣ 📂 agreements  
