@@ -18,6 +18,8 @@ npx playwright test
 
 ## Tests folder structure
 
+Folders are structured into features and sub-features, each main folder has a utilities file for code reuse across tests
+
 - tests
   - Feature 1
     - Subfeature 1
