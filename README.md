@@ -25,7 +25,7 @@ Folders are structured into features and sub-features, each main folder has a ut
     - Subfeature 1
     - Subfeature 2
 
-📦 tests  
+ 📦 tests  
  ┣ 📂 agreements  
  ┃ ┣ 📜 PinkyPromise.spec.ts  
  ┃ ┣ 📜 RevenueSplitter.spec.ts  
@@ -33,5 +33,5 @@ Folders are structured into features and sub-features, each main folder has a ut
  ┗ 📂 authentication  
  ┃ ┣ 📜 index.ts  
  ┃ ┣ 📜 Login.spec.ts  
- ┃ ┣ 📜 Signup.spec.ts  
+ ┃ ┣ 📜 SignUp.spec.ts  
  ┃ ┗ 📜 utils.ts
